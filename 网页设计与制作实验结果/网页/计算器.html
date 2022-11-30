@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>计算器</title>
+<script type="text/javascript">
+function mean(){
+	var num1=document.getElementById('num1').value;
+	var num2=document.getElementById('num2').value;
+	var num3=document.getElementById('num3').value;
+	s=(Number(num1)+Number(num2)+Number(num3))/3
+	alert("平均值为："+s)
+}
+</script>
+</head>
+<body>
+<label>输入三个整数：</label><br/>
+<input type="number" id="num1"><br/>
+<input type="number" id="num2"><br/>
+<input type="number" id="num3"><br/>
+<input type="button" id="submit" value="计算！" onclick="mean()"/>
+</body>
+</html>

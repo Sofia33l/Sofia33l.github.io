@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>开关灯</title>
+<script type="text/javascript">
+	var button1=document.getElementsByName('button1');
+    var button2=document.getElementsByName('button2');
+    var img=document.getElementsByName('image');
+function turnon(){
+	image.src="../image/图片灯泡2.png";
+}
+function turndown(){
+	image.src="../image/图片灯泡1.png";
+}
+</script>
+</head>
+<body>
+<input type="button" name="button1" value="开灯" onclick="turnon()"/>
+<img src="../image/图片灯泡1.png" alt="" name="image">
+<input type="button" name="button2" value="关灯" onclick="turndown()"/>
+</body>
+</html>
