@@ -1174,6 +1174,8 @@ a.agilebtn {
     color: #2b2b2b;
 }
 .contact-agileits-w3layouts {
+	margin: 0 auto;
+	width: 500px;
     padding: 35px 60px;
     background: #ecb731;
 }
