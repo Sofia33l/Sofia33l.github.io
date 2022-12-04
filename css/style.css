@@ -495,6 +495,12 @@ li.dropdown.act a.w3_icons_act {
 }
 /*-- //about --*/
 /*-- works --*/
+.work .video{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
 .work h5,.contact-grids h5 {
     color: #0086fe;
     font-size: 20px;
@@ -552,8 +558,7 @@ li.dropdown.act a.w3_icons_act {
 	background:#171717;
 }
 .services img{
-	width:auto;
-	height:auto;
+	width: auto;
 }
 .services h3{
 	color:#fff!important;
