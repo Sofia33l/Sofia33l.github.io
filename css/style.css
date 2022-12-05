@@ -557,9 +557,6 @@ li.dropdown.act a.w3_icons_act {
 .services{
 	background:#171717;
 }
-.services img{
-	width: auto;
-}
 .services h3{
 	color:#fff!important;
 }
@@ -689,6 +686,9 @@ h3.w3_head.w3_head1 span {
     width: 100%;
     height: 100%;
     visibility: visible;
+}
+.agileits_service_grid_btm_left1 img{
+	height:400px;
 }
 .agileits_service_grid_btm_left2 h5 {
     margin: 0em 0 .5em;
