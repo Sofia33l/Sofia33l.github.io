@@ -848,7 +848,7 @@ section.mid-w3layouts a:hover {
 /*-- mid --*/ 
 /*-- skills --*/ 
 .skills-agileinfo {
-    background: url(../images/skills.jpg)no-repeat 0px 0px;
+    background: url()no-repeat 0px 0px;
     background-size: cover;
     background-attachment: fixed;
 }
